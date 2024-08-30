@@ -37,7 +37,7 @@ Complete Exercise 3 in the space below:
 foods.unshift("taco");
 
 
- console.log('Exercise 3 result:', foods);
+ //console.log('Exercise 3 result:', foods);
 //////////////////////////////////////////
 /*
 Exercise 4: Access an array element
@@ -53,7 +53,7 @@ foods.splice(1,1);
 
 const favFood = foods;
 
-console.log('Exercise 4 result:', favFood);
+//console.log('Exercise 4 result:', favFood);
 
 /////////////////////////////////
 /*
@@ -75,10 +75,10 @@ Exercise 6: Replace elements
 
 Complete Exercise 6 in the space below:
 */
-foods.splice(1,1,"sushi","pancake");
+//foods.splice(1,1,"sushi","cupcake");
 
 
-console.log('Exercise 6 result:', foods);
+//console.log('Exercise 6 result:', foods);
 ///////////////
 /*
 Exercise 7: Using the `slice()` method
@@ -92,8 +92,25 @@ Complete Exercise 7 in the space below:
 */
 //console.log(foods);
 
-const yummy = foods.slice(1,3);
+//const yummy = foods.slice(1,3);
 
 
-console.log('Exercise 7 result:', yummy);
+//console.log('Exercise 7 result:', yummy);
 /////////////////////
+/*
+Exercise 8: Finding an index
+
+1) Using the `indexOf()` method, find the index of the string 'tofu' in the 
+   `foods` array. 
+
+2) Assign it to a variable named `soyIdx`.
+
+Complete Exercise 8 in the space below:
+*/
+
+const soyIdx = foods.indexOf("tofu");
+
+
+console.log('Exercise 8 result:', soyIdx);
+
+
